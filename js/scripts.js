@@ -1,7 +1,11 @@
 //alert("jQuery is working on " + $("h1").text()); //test for jQuery linked and loaded correctly
 
 function leapYear(year) {
-  return false;
+  if (year%4===0){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 $("#findOut").click(function() {
