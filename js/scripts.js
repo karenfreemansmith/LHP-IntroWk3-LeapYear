@@ -1,1 +1,12 @@
-alert("jQuery is working on " + $("h1").text()); //test for jQuery linked and loaded correctly
+//alert("jQuery is working on " + $("h1").text()); //test for jQuery linked and loaded correctly
+
+function leapYear(year) {
+  return false;
+}
+
+$("#findOut").click(function() {
+  var yourYear=parseInt($("#testYear").val());
+  var ourResult=leapYear(yourYear);
+      //alert(ourResult);
+  $("#results").text(ourResult);
+});
