@@ -10,3 +10,7 @@ h1 {
   font-family: cursive;
   border-radius: 25px;
 }
+
+#results {
+  display:none;
+}
