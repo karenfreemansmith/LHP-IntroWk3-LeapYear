@@ -1,16 +1,37 @@
-body {
+html, .btn {
   background-color: #009e96;
 }
+
 h1 {
-  background-color: #511c00;
-  color: white;
+  border-bottom: dashed #511c00 3px;
+  color: #009e96;
   font-size: 4em;
-  line-height: 4em;
+  line-height: 3em;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Poiret One', cursive;
   border-radius: 25px;
 }
 
 #results {
   display:none;
+}
+div {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  color: #511c00;
+  padding: 1%;
+  margin-left:33%;
+}
+
+aside {
+  background-color: #511c00;
+  color: white;
+  width: 33%;
+  float: right;
+  padding: 2%;
+}
+
+img {
+  width: 90%;
+  margin: auto;
 }
